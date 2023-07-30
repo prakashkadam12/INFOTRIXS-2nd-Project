@@ -1,0 +1,22 @@
+.card {
+    border: 1px solid #004664;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(191, 222, 247, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+.card:hover {
+    box-shadow: 0 4px 8px rgba(135, 237, 229, 0.2);
+}
+.card-body {
+    padding: 20px;
+}
+.card-title {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.card-text {
+    margin-bottom: 10px;
+}
+.card-text i {
+    margin-right: 8px;
+  }

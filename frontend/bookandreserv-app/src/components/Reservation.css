@@ -1,0 +1,71 @@
+.container {
+  max-width: 500px;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.reservation-heading {
+  font-family: 'Arial', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+
+.custom-form {
+  margin-top: 20px;
+  width: 50%; /* Reduce the form width by 50% */
+  margin: 0 auto; /* Center the form within the container */
+}
+
+h3 {
+  font-family: cursive;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  color: #555;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button.btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 20px; /* Add margin to separate the button from the footer */
+  margin-bottom: 20px; /* Add margin to create space at the bottom */
+}
+
+button.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Custom font for the button */
+button.btn {
+  font-family: 'Times New Roman', serif;
+}
+
